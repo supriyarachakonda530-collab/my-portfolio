@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+    <script>
+       /* let numbers = [2,7,11,15,3,6];
+        let target = 9;
+        for(let i = 0 ; i< numbers.length; i++){
+            for (let j = i+1; j< numbers.length;j++){
+                if (numbers[i] + numbers[j] == target){
+                    console.log(numbers[i] ,numbers[j]);
+                    
+                }
+
+            }
+        }
+            */
+        /*let sentence = "javascript is powerful";
+        let words = sentence.split(" ");
+        let result = " ";
+        for (let i = 0; i<words.length;i++){
+            let reverse = " "
+            for(let j = words[i].length-1;j>=0;j--){
+                reverse = reverse + words[i][j];
+
+            }
+            result = result + reverse + " ";
+           }
+           console.log(result);*/
+
+        /*let numbers = [45,12,89,34,67,89,23];
+        let largest = -Infinity;
+        let secondlargest = -Infinity;
+        for (let i = 0;i<numbers.length;i++){
+            if(numbers[i]>largest){
+                secondlargest= largest;
+                largest = numbers[i]
+            }
+            else if (numbers[i]>secondlargest&&numbers[i]<largest){
+                secondlargest = numbers[i];
+            }
+        }
+        console.log(secondlargest);*/
+        let numbers =[10,20,10,30,40,20,50,30];
+        let unique = [];
+        for (let i = 0 ;i<numbers.length;i++){
+            if (!unique.includes(numbers[i])){
+                unique.push(numbers[i]);
+            }
+        }
+        console.log(unique);
+
+
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+/* General */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* Home Section */
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    background: #f5f7fa;
+}
+
+.hero-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero-section h1 span {
+    color: #0d6efd;
+}
+
+.hero-section h3 {
+    margin-top: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+
+/* Profile */
+
+.profile-circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #0d6efd;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
+
+.profile-circle h2 {
+    font-size: 60px;
+}
+
+
+/* Section Titles */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+
+/* Skills */
+
+.skill-card {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+    height: 100%;
+}
+
+.skill-card h4 {
+    color: #0d6efd;
+}
+
+
+/* Projects */
+
+.project-card {
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Education */
+
+.education-box {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Contact */
+
+#contact {
+    background: #ffffff;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 38px;
+    }
+
+    .profile-circle {
+        margin-top: 40px;
+    }
+
+}
